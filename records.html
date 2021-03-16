@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WarShooter</title>
+    <script type="module" src="scripts/pages/records.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/styles/style.css"/>
+</head>
+<body>
+    <div id="background">
+    </div>
+    <div>
+        <table id="TableRecord">
+            <tr>
+                <td colspan="2" class="titleCell">Счет текущей игры:</td>
+            </tr>
+            <tr>
+                <td class="nameCell"><div id="LastName"></div></td>
+                <td class="scoreCell"><div id="LastScore"></div></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="titleCell">Лучшие игры:</td>
+            </tr>
+            <tr>
+                <td class="nameCell"><div id="Gamer1"></div></td>
+                <td class="scoreCell"><div id="Score1"></div></td>
+            </tr>
+            <tr>
+                <td class="nameCell"><div id="Gamer2"></div></td>
+                <td class="scoreCell"><div id="Score2"></div></td>
+            </tr>
+            <tr>
+                <td class="nameCell"><div id="Gamer3"></div></td>
+                <td class="scoreCell"><div id="Score3"></div></td>
+            </tr>
+            <tr>
+                <td class="nameCell"><div id="Gamer4"></div></td>
+                <td class="scoreCell"><div id="Score4"></div></td>
+            </tr>
+            <tr>
+                <td class="nameCell"><div id="Gamer5"></div></td>
+                <td class="scoreCell"><div id="Score5"></div></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <form action="index.html" method="get">
+                        <label>
+                            <input id="Button" type="submit" value="Новая игра">
+                        </label>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+    <div>
+        <img id="sound" src="./public/images/soundOff.png">
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WarShooter</title>
+    <script type="module" src="scripts/pages/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/styles/style.css"/>
+</head>
+<body>
+    <div id="background">
+    </div>
+    <div id="startPanel">
+        <form action="main.html" method="get" >
+            <p class="startText"> Введите ваше имя </p>
+            <input id="gamerName" type="text" placeholder="Ваше имя" >
+            <p class="startText"> Выберите сложность игры </p>
+            <div id="difficultyBlock">
+                <input name="difficulty" type="radio" value="easy"  checked> <label class="radioText">Легко</label>
+                <input name="difficulty" type="radio" value="normal"> <label class="radioText">Нормально</label>
+                <input name="difficulty" type="radio" value="hard" > <label class="radioText">Сложно</label>
+            </div>
+            <p></p>
+            <input id="Button" type="submit" value="Начать игру" disabled >
+        </form>
+    </div>
+    <div>
+        <img id="sound" src="./public/images/soundOff.png">
+    </div>
+</body>
+</html>

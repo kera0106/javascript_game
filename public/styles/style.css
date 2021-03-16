@@ -1,0 +1,192 @@
+body {
+    background: url("../images/background.jpg");
+}
+
+#canvasGame {
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 68px;
+    margin-left: 203px;
+    border-radius: 3px 3px 20px 20px;
+    display: block;
+    cursor: pointer;
+}
+
+#gamerName{
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+    border: 3px solid #032994;
+    font-size: 20pt;
+    outline: none;
+    text-align: center;
+}
+
+#difficultyBlock{
+    margin-left: 50px;
+}
+
+#Button{
+    width: 250px;
+    height: 47px;
+    font-size: 18pt;
+    text-align: center;
+    background-color: #052c9b;
+    border-radius: 20px;
+    border: 3px solid #01032b;
+    margin-top: 20px;
+}
+
+#Button:hover{
+    background-color: #010f35;
+    cursor: pointer;
+}
+
+.radioText{
+    font-size: 18pt;
+    margin-right: 50px;
+}
+
+#hp{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 1345px;
+    margin-top: 280px;
+}
+
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+#startPanel{
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin-left: 410px;
+    margin-top: 150px;
+}
+
+.levelPicture{
+    width: 954px;
+    height: 564px;
+    position: fixed;
+    background-color: #4263db;
+    left: 0;
+    top: 0;
+    margin-top: 68px;
+    margin-left: 203px;
+    border-radius: 3px 3px 20px 20px;
+    display: none;
+}
+
+#gameOverImg{
+    border-radius: 30px;
+}
+
+#TableRecord{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #4263db;
+    margin-left: 22%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 23pt;
+    border-spacing: 15px;
+    width: 45%;
+}
+
+.scoreCell {
+    background-color: #798688;
+    border: 1px solid #383838;
+}
+
+.nameCell {
+    background-color: #4c97a2;
+    border: 1px solid #383838;
+}
+
+.titleCell {
+    background-color: #ec1c1c;
+    border: 1px solid #383838;
+}
+
+.gameOverBlock{
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-left: 400px;
+    margin-top: 250px;
+    display: none;
+}
+
+#sound{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    border: 3px solid #1b338c;
+}
+
+#sound:hover{
+    cursor: pointer;
+    border: 3px solid #91a7ff;
+}
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.startText{
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+#background{
+    width: 954px;
+    height: 564px;
+    background-color: #4263db;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin-top: 68px;
+    margin-left: 203px;
+    border-radius: 3px 3px 20px 20px;
+}
+
+#HPpanel {
+    border-radius: 20px;
+    margin-left: 2%;
+    display: block;
+}
+
+p {
+    font-size: 17pt;
+}
+
+#info{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 78%;
+    margin-top: 10%;
+    width: 323px;
+    height: 180px;
+    background-color: #bccdf5;
+    text-align: center;
+    align-content: center;
+    border-radius: 20px;
+    border: 5px solid #3f51b5;
+}
+
